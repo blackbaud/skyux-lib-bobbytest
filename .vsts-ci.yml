@@ -2,6 +2,6 @@ steps:
 
 - script: echo BEFORE
 
-- task: skyux-lib-oss@1
+- template: shared-builder-config.yml
 
 - script: echo AFTER
